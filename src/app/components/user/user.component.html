@@ -1,0 +1,11 @@
+
+  <span *ngIf="message.length !== 0 ">
+    error : {{message}}
+  </span>
+  <span *ngIf="post">
+    POST: <b>{{post.body.title}}</b><br/>{{post.body.body}} <br/>
+    STATUS: {{post.ok}} - {{post.status}}
+  </span>
+
+
+<hr>
